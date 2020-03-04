@@ -24,7 +24,7 @@ public class Main {
         int c = scanner.nextInt();
         System.out.println("Введите значение d:");
         int d = scanner.nextInt();
-        float result = a * (b + ((float)c / (float)d));
+        float result = a * (b + ((float) c / (float) d));
         System.out.println(result);
         scanner.close();
     }
@@ -41,7 +41,7 @@ public class Main {
         int b = scanner.nextInt();
         boolean z;
         a = a + b;
-        if (a > 10 && a <=20) {
+        if (a > 10 && a <= 20) {
             System.out.println("Сумма чисел равна: " + a + " и входит в заданный диапазон от 10 до 20");
             z = true;
         } else {
@@ -50,7 +50,6 @@ public class Main {
         }
         return z;
     }
-
 
 
 }
